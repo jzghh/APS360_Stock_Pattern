@@ -1,0 +1,118 @@
+# 股票配置文件
+# Stock Configuration - Nasdaq-100 (QQQ) Holdings
+
+# QQQ 纳斯达克100指数成分股
+tickers:
+  # Top Holdings
+  - AAPL      # Apple
+  - MSFT      # Microsoft
+  - NVDA      # NVIDIA
+  - AMZN      # Amazon
+  - META      # Meta Platforms
+  - GOOGL     # Alphabet Class A
+  - GOOG      # Alphabet Class C
+  - AVGO      # Broadcom
+  - TSLA      # Tesla
+  - COST      # Costco
+  - NFLX      # Netflix
+  - AMD       # Advanced Micro Devices
+  - ADBE      # Adobe
+  - PEP       # PepsiCo
+  - CSCO      # Cisco
+  - TMUS      # T-Mobile
+  - LIN       # Linde
+  - QCOM      # Qualcomm
+  - INTU      # Intuit
+  - ISRG      # Intuitive Surgical
+  - TXN       # Texas Instruments
+  - CMCSA     # Comcast
+  - AMGN      # Amgen
+  - AMAT      # Applied Materials
+  - HON       # Honeywell
+  - BKNG      # Booking Holdings
+  - VRTX      # Vertex Pharmaceuticals
+  - ADP       # Automatic Data Processing
+  - PANW      # Palo Alto Networks
+  - GILD      # Gilead Sciences
+  - SBUX      # Starbucks
+  - MU        # Micron Technology
+  - ADI       # Analog Devices
+  - LRCX      # Lam Research
+  - MDLZ      # Mondelez
+  - REGN      # Regeneron
+  - KLAC      # KLA Corporation
+  - MELI      # MercadoLibre
+  - SNPS      # Synopsys
+  - CDNS      # Cadence Design
+  - ASML      # ASML Holding
+  - PYPL      # PayPal
+  - CRWD      # CrowdStrike
+  - MAR       # Marriott
+  - CTAS      # Cintas
+  - ORLY      # O'Reilly Automotive
+  - ABNB      # Airbnb
+  - MRVL      # Marvell Technology
+  - CSX       # CSX Corporation
+  - FTNT      # Fortinet
+  - PCAR      # PACCAR
+  - WDAY      # Workday
+  - NXPI      # NXP Semiconductors
+  - CPRT      # Copart
+  - DASH      # DoorDash
+  - CEG       # Constellation Energy
+  - DXCM      # DexCom
+  - AEP       # American Electric Power
+  - ROP       # Roper Technologies
+  - MNST      # Monster Beverage
+  - PAYX      # Paychex
+  - TTD       # The Trade Desk
+  - ODFL      # Old Dominion Freight
+  - CHTR      # Charter Communications
+  - ROST      # Ross Stores
+  - KDP       # Keurig Dr Pepper
+  - AZN       # AstraZeneca
+  - FAST      # Fastenal
+  - LULU      # Lululemon
+  - VRSK      # Verisk Analytics
+  - EA        # Electronic Arts
+  - KHC       # Kraft Heinz
+  - GEHC      # GE HealthCare
+  - EXC       # Exelon
+  - CTSH      # Cognizant
+  - IDXX      # IDEXX Laboratories
+  - MCHP      # Microchip Technology
+  - BKR       # Baker Hughes
+  - CSGP      # CoStar Group
+  - XEL       # Xcel Energy
+  - FANG      # Diamondback Energy
+  - ON        # ON Semiconductor
+  - DDOG      # Datadog
+  - ANSS      # ANSYS
+  - CDW       # CDW Corporation
+  - GFS       # GlobalFoundries
+  - TEAM      # Atlassian
+  - ZS        # Zscaler
+  - BIIB      # Biogen
+  - ILMN      # Illumina
+  - DLTR      # Dollar Tree
+  - MDB       # MongoDB
+  - MRNA      # Moderna
+  - WBD       # Warner Bros Discovery
+  - SIRI      # Sirius XM
+  - LCID      # Lucid Group
+  - ARM       # ARM Holdings
+  - SMCI      # Super Micro Computer
+
+# 时间范围
+start_date: "2025-01-01"
+end_date: "2026-12-31"
+
+# K 线间隔: 1m, 5m, 15m, 30m, 1h, 1d, 1wk, 1mo
+interval: "1h"
+
+# 输出文件夹 (旧版，已弃用)
+output_dir: "dataset_images"
+
+# YOLOv8 分类数据集配置
+dataset_dir: "dataset"      # 数据集输出目录
+train_ratio: 0.8            # 训练集比例 (80% train, 20% val)
